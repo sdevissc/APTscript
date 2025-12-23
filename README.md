@@ -17,11 +17,12 @@ Several things must be installed:
 The config.cfg file contains the necessary information for the script to be run:
 
 ## fichier de configuration contenant
-# 1) Nom de l'objet (crée un repo du même nom pour y déposer les tsv)
-# 2) l'adresse du fits a traiter
-# 3) l'adresse du repo dans lequel le repo ayant le nom mentionné en 1) est créé
-# 3) l'adresse du repo de travail de APT
-# 5) l'adresse du soft vizquery
+1) Nom de l'objet (crée un repo du même nom pour y déposer les tsv)
+2) l'adresse du fits a traiter
+3) l'adresse du repo dans lequel le repo ayant le nom mentionné en 1) est créé
+3) l'adresse du repo de travail de APT
+5) l'adresse du soft vizquery
+
 name=CometName
 fitsadd=/home/johndoe/this_image.fit
 wdir=/home/johndoe/WDir/
