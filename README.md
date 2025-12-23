@@ -2,9 +2,9 @@
 
 This is a simple script that 
 
-a) platesolve a fits file using ASTAP
-b) produces a tsv file (vizierdb.txt) with all sources from Vizier around the RA-DEC coordinates of the image
-c) produces a tsv file (sourcesimage.txt) using Aperture PhotoMetry Tool with all sources within the image
+1) platesolve a fits file using ASTAP
+2) produces a tsv file (vizierdb.txt) with all sources from Vizier around the RA-DEC coordinates of the image
+3) produces a tsv file (sourcesimage.txt) using Aperture PhotoMetry Tool with all sources within the image
 
 usage: ./script.sh config.cfg
 
@@ -23,10 +23,10 @@ The config.cfg file contains the necessary information for the script to be run:
 3) l'adresse du repo de travail de APT
 5) l'adresse du soft vizquery
 
-name=CometName
-fitsadd=/home/johndoe/this_image.fit
-wdir=/home/johndoe/WDir/
-APThDir=/home/johndoe/.AperturePhotometryTool
-vqadd=/home/johndoe/Programs/cdsclient/cdsclient-4.07/vizquer
+name=CometName__
+fitsadd=/home/johndoe/this_image.fit__
+wdir=/home/johndoe/WDir/__
+APThDir=/home/johndoe/.AperturePhotometryTool__
+vqadd=/home/johndoe/Programs/cdsclient/cdsclient-4.07/vizquer__
 
 
