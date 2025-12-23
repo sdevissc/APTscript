@@ -23,10 +23,10 @@ The config.cfg file contains the necessary information for the script to be run:
 3) l'adresse du repo de travail de APT
 5) l'adresse du soft vizquery
 
-name=CometName__
-fitsadd=/home/johndoe/this_image.fit__
-wdir=/home/johndoe/WDir/__
-APThDir=/home/johndoe/.AperturePhotometryTool__
-vqadd=/home/johndoe/Programs/cdsclient/cdsclient-4.07/vizquer__
+name=CometName  
+fitsadd=/home/johndoe/this_image.fit  
+wdir=/home/johndoe/WDir/  
+APThDir=/home/johndoe/.AperturePhotometryTool  
+vqadd=/home/johndoe/Programs/cdsclient/cdsclient-4.07/vizquer  
 
 
